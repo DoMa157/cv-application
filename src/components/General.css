@@ -1,0 +1,46 @@
+
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+    gap: 4px;
+    min-width: 700px;
+    align-items: baseline;
+}
+
+.general-title, .practical-title, .education-title{
+    font-size: 18px;
+    color: pink;
+    font-weight: bold;
+}
+input{
+    border-radius: 4px;
+    height: 25px;
+    border: 1px solid gray;
+}
+.info{
+    margin-bottom: 8px;
+}
+input:focus{
+    outline: 0;
+    border: 2px solid pink;
+}
+
+.flex-container div {
+    width: max-content;
+}
+
+.edit-btn{
+    justify-self: flex-start;
+    align-self: flex-end;
+}
+
+button{
+    padding: 6px 24px;
+}
+
+input[type = "textarea"]{
+    height: 150px;
+    width: 300px;
+}
